@@ -9,7 +9,7 @@ Sp24_61608_Group 7
 2. Sedat Akgun 
 3. Tharini R.K. 
 4. Ruhi Shirke
-5. Rachel Kim 
+5. Rachel Kim [@rachelkim816](https://github.com/rachelkim816/MIST-4610-group-project.git)
 6. Danielle LaDuca [@danijlad](insert website)
 
 ## Problem Description:
@@ -33,39 +33,42 @@ The EquipmentSets entity tracks the inventory of sports equipment indicating a m
 Finally, facilities management is addressed through Facility, Fields, and GameStaff entities. Facility represents the club's physical infrastructure, linked to Fields to show the specific playing and practice areas within the facility. GameStaff is connected to Facilities through a one to many relationship, illustrating that the facility employs several staff members, while each staff member is associated with the one facility. Within GameStaff includes, first name, last name, and the job title for the staff. 
 
 
-<img width="539" alt="Screenshot 2024-03-27 at 11 59 25 AM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/4c98178e-02a7-41af-9bf0-dc3cdec17465">
+<img width="850" alt="Screenshot 2024-03-27 at 11 59 25 AM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/4c98178e-02a7-41af-9bf0-dc3cdec17465">
 
 
 
 
 ## Data Dictionary:
-![Screen Shot 2023-03-30 at 9 47 17 PM](https://user-images.githubusercontent.com/128402101/229002096-362cf55c-86b7-40e0-ae42-6120c5ab3d51.png)
 
-![Screen Shot 2023-03-30 at 9 47 45 PM](https://user-images.githubusercontent.com/128402101/229002159-c7242e00-592e-4b10-9a09-1510a2728a4d.png)
+<img width="710" alt="Screenshot 2024-03-27 at 12 09 44 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/101defdd-2798-4b47-936a-9a8ebe19dc36">
 
-![Screen Shot 2023-03-30 at 9 48 13 PM](https://user-images.githubusercontent.com/128402101/229002240-9817894f-9efd-4b15-af49-9712e8ec225b.png)
+<img width="691" alt="Screenshot 2024-03-27 at 12 13 22 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/53efcc85-8381-499d-b67f-23a1ff308f92">
 
-![Screen Shot 2023-03-30 at 9 55 12 PM](https://user-images.githubusercontent.com/128402101/229003109-3e9ec7ce-6368-4b85-95c8-facfa2fc1859.png)
+<img width="721" alt="Screenshot 2024-03-27 at 12 14 53 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/13284f5a-1c18-42e0-9f6b-9179cc9ee63e">
 
-![Screen Shot 2023-03-30 at 9 55 31 PM](https://user-images.githubusercontent.com/128402101/229003151-df7093e1-2245-4c2c-a2ed-7ae4b63c0f3f.png)
+<img width="716" alt="Screenshot 2024-03-27 at 12 15 26 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/3b94ec26-faf2-4700-b9fc-48a3792ecb44">
 
-![Screen Shot 2023-03-30 at 9 56 18 PM](https://user-images.githubusercontent.com/128402101/229003272-e4f940d4-a2e6-428a-b009-719a7677b888.png)
+<img width="696" alt="Screenshot 2024-03-27 at 12 15 39 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/2f82ac13-bc4a-404a-a0d9-d3113a99e242">
 
-![Screen Shot 2023-03-30 at 9 56 39 PM](https://user-images.githubusercontent.com/128402101/229003314-fe200a9c-db98-4447-b5d6-5f7d84e3f135.png)
+<img width="697" alt="Screenshot 2024-03-27 at 12 16 04 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/1bdd4187-4cb0-4bc9-88e8-aa9c55c2f07f">
 
-![Screen Shot 2023-03-30 at 9 57 21 PM](https://user-images.githubusercontent.com/128402101/229003410-d264d5fa-52f4-412c-9663-7171571ad564.png)
+<img width="695" alt="Screenshot 2024-03-27 at 12 16 30 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/488f0e74-ec9c-45db-bce9-e9193474c276">
 
-![Screen Shot 2023-03-30 at 9 57 51 PM](https://user-images.githubusercontent.com/128402101/229003478-1b07581a-b8a2-4687-a4a7-9687c1cb2139.png)
+<img width="714" alt="Screenshot 2024-03-27 at 12 16 53 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/67130668-3e99-4a09-a580-355fbadd21d2">
 
-![Screen Shot 2023-03-30 at 9 58 07 PM](https://user-images.githubusercontent.com/128402101/229003507-19f9582f-49a2-4cae-9d88-4eadb842ba66.png)
+<img width="711" alt="Screenshot 2024-03-27 at 12 17 13 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/013e91ba-23d9-4345-b391-d515ae20fd42">
 
-![Screen Shot 2023-03-30 at 9 58 29 PM](https://user-images.githubusercontent.com/128402101/229003554-6ae5e483-a161-4060-a113-ff7bbb5e4c1d.png)
+<img width="718" alt="Screenshot 2024-03-27 at 12 17 51 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/41c1a203-bb1e-40ed-acc2-045219d36313">
 
-![Screen Shot 2023-03-30 at 9 58 48 PM](https://user-images.githubusercontent.com/128402101/229003594-e640c190-4e87-4d4d-a81b-7f04085cbed8.png)
+<img width="709" alt="Screenshot 2024-03-27 at 12 18 13 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/49f9f7f0-57f3-40f1-bc10-38442b0de8b1">
+
+<img width="707" alt="Screenshot 2024-03-27 at 12 18 48 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/7a471d51-32b5-4903-a163-e2807a2004c0">
+
 
 ## Queries:
 
-![Screen Shot 2023-03-31 at 6 37 36 PM](https://user-images.githubusercontent.com/128402101/229244775-f60ebfa8-49b5-4dc1-95f4-ae027192c111.png)
+<img width="630" alt="Screenshot 2024-03-27 at 12 19 42 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/f7080312-98a9-45de-9ae4-376207430e6e">
+
 
 1. Query 1 lists the number of reservations at each dining establishment that were made for between 6 and 8pm as well as the name of each dining establishment these reservation were made for. The results are also ordered by number of reservations in descending order.
 
