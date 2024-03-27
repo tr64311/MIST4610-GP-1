@@ -71,62 +71,61 @@ Finally, facilities management is addressed through Facility, Fields, and GameSt
 
 1. Query 1 provides insights into the performance of different clubs based on the average number of goals scored by their players. The results are also ordered by the averageGoals scored. 
 
-<img width="629" alt="Screenshot 2024-03-27 at 12 39 12 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/fcc919f3-7e66-4721-8316-b1fe44c494c4">
+Insert Query 1 Image
 
 Query 1 assists managers in assessing the goal-scoring performance of the 3 clubs. This will allow managers to easily discern which clubs demonstrate more power compared to others on the field. This data shows that club 2 may need more practice. Listing the results in descending order of average number of goals makes it easier to see which clubs need to prioritize their goal performance. A query of similar nature can be used to evaluate other performance statistics.  
 
 2.Query 2 lists the number of game wins and game losses by each team level for players who have not received a red card. The data is listed in order of the team skill levels, beginner, intermediate, and advanced. 
 
-<img width="538" alt="Screenshot 2024-03-27 at 12 48 43 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/f1ffac40-de41-47f3-a5a8-c73baaf14cd7">
+Insert Query 2 Image
 
 Query 2 enables managers to evaluate the overall performance of the participants who demonstrate sportsmanship across each team skill level, based on wins and losses. A manager could compare these outcomes to those wins and losses of players who have received redcards. Here, a manager would see that players who do not receive red cards do not have as many wins. A manager may conclude that beginners can afford to play more aggressively than advanced players who tend to have more wins with less redcards. 
 
 3. Query 3 tells us the average salary per coach role. The average salaries are listed in descending order so we can immediately see who is being paid the highest. 
 
-<img width="537" alt="Screenshot 2024-03-27 at 12 50 03 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/5f870832-076f-4581-a69f-8b45ac0383fa">
+Insert Query 3 Image
 
 Query 3 can be used in two ways. Firstly, it will prove our club is sufficiently paying each of our coaches. If not, this data may reveal to management a need to offer salary increases. Secondly, this data can be referenced during the hiring process. When managers send out offer letters to new coaches, they should offer a salary near this average. 
 
 4. Query 4 lists the players with over 10 goals and complete contract status with “Platinum” membership.  
 
-<img width="631" alt="Screenshot 2024-03-27 at 12 53 20 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/5a9b37fd-e25d-46b1-95cb-7e0765d951de">
+Insert Query 4 Image
 
 Query 4 could be used by management to recognize and reward players who are high performing and fully engaged with the club. These are effectively our club’s “VIPs,” hence why the procedure is named valuePlayers(). This data will help managers of our club who wish to highlight the most successful players, recruit them for teams, or promote them at future events. 
 
 5. Query 5 filters and lists players with first names starting from A to M who have practice times on ‘Grass’ fields. It utilizes REGEXP for pattern matching on names and joins to correlate practice schedule with field type. This allows for efficient allocation of training resources and plans.
 
-<img width="631" alt="Screenshot 2024-03-27 at 12 58 35 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/9392c09c-071a-4070-982c-f1dc038fdf98">
+Insert Query 5 Image
 
 Query 5 shows the players with the first name beginning with A-M represent half of our players (named practiceBlock1 in the procedure) who will engage in their first practice activity (ex. shooting) on grass and then switch with the remaining players (N-Z) who were working on the other practice activity (ex. dribbling) on turf. A manager would reference this query to see when the first half of players are scheduled to practice on grass. The club can schedule appropriate practice sessions on grass fields for half the players, and turf fields for half the players optimizing field usage.
 
 6. Query 6 provides detailed information about players with incomplete contract status and a loss history greater than 20.
 
-
+Insert Query 6 Image
 
 Query 6 shows the players who have not resigned their contracts and have lost more than 20 games are listed. The club may want to review these players, specifically their incomplete contracts. Since the performance for these players reflects a high loss rate, managers may consider offering further training, a renewed contract, or strategy sessions. 
 
 7. Query 7 lists the name, salary, job title, and zip code of game staff who reside in the same zip code as our facility, also known as our “local staff.”
 
+Insert Query 7 Image
 
-
-Query 7 allows the resort to see how many guests they should plan to seat, how the tables should be set up, and can lead to the resort figuring out how much revenue should be expected for the average visit.
+Query 7 Need explanation
 
 8. Query 8 returns details of equipment sets that were purchased in 2022 and 2023 in a descending order. The details include equipment set level, quantity, purchase date and set ID.
 
-
-
+Insert Query 8 Image
 
 Query 8 is used when they wish to manage equipment history to make sure that the players have enough equipment that is up to date. This also allows the club to have access to view the equipment purchase history in relation to the equipment level, which can help them with future purchasing plans. Efficient equipment management ensures compliance with safety standards and regulatory requirements, mitigating risks of injury and liability for the club.
 
 9. Query 9 lists out the matchScheduleIDs and the dates where there was not an opponent scheduled.
 
-
+Insert Query 9 Image
 
 Query 9 allows the club to know which of its past matches have been canceled due to there not being an opponent available to play against. By knowing the day, month, and year, that the majority of cancellations occur, due to opponent unavailability, the club can better schedule their team’s matches in the future. This will set more accurate expectations for the players, parents, and coaches when planning their personal schedules.
 
 10.Query 10 lists the first and last name of the head coaches whose salary is greater than the average head coach salary.
 
-
+Insert Query 10 Image
 
 Query 10 allows managers to see which head coaches are being paid more than average. This could create an uneven distribution of wages for reasons unknown. This higher than average salary can be further investigated to determine if these coaches’ time and dedication to the club equates to their above average pay and whether or not to adjust accordingly.
 
