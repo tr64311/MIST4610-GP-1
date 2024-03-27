@@ -5,7 +5,7 @@ Sp24_61608_Group 7
 
 ## Team Members:
 
-1. Rohan Kothari [@Rohank66](https://www.github.com/taralbpatel)
+1. Rohan Kothari [@Rohank66](https://github.com/Rohank66/MIST4610-GP-1.git)
 2. Sedat Akgun 
 3. Tharini R.K. 
 4. Ruhi Shirke
