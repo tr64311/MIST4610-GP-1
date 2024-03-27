@@ -71,61 +71,61 @@ Finally, facilities management is addressed through Facility, Fields, and GameSt
 
 1. Query 1 provides insights into the performance of different clubs based on the average number of goals scored by their players. The results are also ordered by the averageGoals scored. 
 
-Insert Query 1 Image
+<img width="631" alt="Screenshot 2024-03-27 at 1 20 18 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/bef81343-380d-4c68-953c-f3111b5a8648">
 
 Query 1 assists managers in assessing the goal-scoring performance of the 3 clubs. This will allow managers to easily discern which clubs demonstrate more power compared to others on the field. This data shows that club 2 may need more practice. Listing the results in descending order of average number of goals makes it easier to see which clubs need to prioritize their goal performance. A query of similar nature can be used to evaluate other performance statistics.  
 
-2.Query 2 lists the number of game wins and game losses by each team level for players who have not received a red card. The data is listed in order of the team skill levels, beginner, intermediate, and advanced. 
+2. Query 2 lists the number of game wins and game losses by each team level for players who have not received a red card. The data is listed in order of the team skill levels, beginner, intermediate, and advanced. 
 
-Insert Query 2 Image
+<img width="635" alt="Screenshot 2024-03-27 at 1 21 47 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/5a1762ba-6a8b-4422-9dbf-20f3f489e6f3">
 
 Query 2 enables managers to evaluate the overall performance of the participants who demonstrate sportsmanship across each team skill level, based on wins and losses. A manager could compare these outcomes to those wins and losses of players who have received redcards. Here, a manager would see that players who do not receive red cards do not have as many wins. A manager may conclude that beginners can afford to play more aggressively than advanced players who tend to have more wins with less redcards. 
 
 3. Query 3 tells us the average salary per coach role. The average salaries are listed in descending order so we can immediately see who is being paid the highest. 
 
-Insert Query 3 Image
+<img width="633" alt="Screenshot 2024-03-27 at 1 22 32 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/556cc2ae-1f7a-40d8-9f0b-bda9ae0bc37f">
 
 Query 3 can be used in two ways. Firstly, it will prove our club is sufficiently paying each of our coaches. If not, this data may reveal to management a need to offer salary increases. Secondly, this data can be referenced during the hiring process. When managers send out offer letters to new coaches, they should offer a salary near this average. 
 
 4. Query 4 lists the players with over 10 goals and complete contract status with “Platinum” membership.  
 
-Insert Query 4 Image
+<img width="577" alt="Screenshot 2024-03-27 at 1 23 02 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/ff22a76f-37c4-46d0-9cfe-798d7e98c2a4">
 
 Query 4 could be used by management to recognize and reward players who are high performing and fully engaged with the club. These are effectively our club’s “VIPs,” hence why the procedure is named valuePlayers(). This data will help managers of our club who wish to highlight the most successful players, recruit them for teams, or promote them at future events. 
 
 5. Query 5 filters and lists players with first names starting from A to M who have practice times on ‘Grass’ fields. It utilizes REGEXP for pattern matching on names and joins to correlate practice schedule with field type. This allows for efficient allocation of training resources and plans.
 
-Insert Query 5 Image
+<img width="624" alt="Screenshot 2024-03-27 at 1 23 53 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/8162c502-02f6-4eec-9d74-61ca9f66a625">
 
 Query 5 shows the players with the first name beginning with A-M represent half of our players (named practiceBlock1 in the procedure) who will engage in their first practice activity (ex. shooting) on grass and then switch with the remaining players (N-Z) who were working on the other practice activity (ex. dribbling) on turf. A manager would reference this query to see when the first half of players are scheduled to practice on grass. The club can schedule appropriate practice sessions on grass fields for half the players, and turf fields for half the players optimizing field usage.
 
 6. Query 6 provides detailed information about players with incomplete contract status and a loss history greater than 20.
 
-Insert Query 6 Image
+<img width="626" alt="Screenshot 2024-03-27 at 1 24 24 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/8c71637c-b2d4-4873-9f26-aeaea487ce36">
 
 Query 6 shows the players who have not resigned their contracts and have lost more than 20 games are listed. The club may want to review these players, specifically their incomplete contracts. Since the performance for these players reflects a high loss rate, managers may consider offering further training, a renewed contract, or strategy sessions. 
 
 7. Query 7 lists the name, salary, job title, and zip code of game staff who reside in the same zip code as our facility, also known as our “local staff.”
 
-Insert Query 7 Image
+<img width="594" alt="Screenshot 2024-03-27 at 1 26 23 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/e6d26ff6-42ae-4c68-8731-77d57c72c054">
 
-Query 7 Need explanation
+Query 7 allows the club to know what staff members reside in the closest proximity to the facility. This is useful when there is a last minute cancellation of a referee or equipment manager and we need a staff member that can quickly commute to the location. 
 
 8. Query 8 returns details of equipment sets that were purchased in 2022 and 2023 in a descending order. The details include equipment set level, quantity, purchase date and set ID.
 
-Insert Query 8 Image
+<img width="632" alt="Screenshot 2024-03-27 at 1 27 22 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/533388e1-ab1e-41f9-9742-003be8438d31">
 
 Query 8 is used when they wish to manage equipment history to make sure that the players have enough equipment that is up to date. This also allows the club to have access to view the equipment purchase history in relation to the equipment level, which can help them with future purchasing plans. Efficient equipment management ensures compliance with safety standards and regulatory requirements, mitigating risks of injury and liability for the club.
 
 9. Query 9 lists out the matchScheduleIDs and the dates where there was not an opponent scheduled.
 
-Insert Query 9 Image
+<img width="647" alt="Screenshot 2024-03-27 at 1 28 11 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/b601b0d1-59d5-417b-9e34-5bfb37b54807">
 
 Query 9 allows the club to know which of its past matches have been canceled due to there not being an opponent available to play against. By knowing the day, month, and year, that the majority of cancellations occur, due to opponent unavailability, the club can better schedule their team’s matches in the future. This will set more accurate expectations for the players, parents, and coaches when planning their personal schedules.
 
-10.Query 10 lists the first and last name of the head coaches whose salary is greater than the average head coach salary.
+10. Query 10 lists the first and last name of the head coaches whose salary is greater than the average head coach salary.
 
-Insert Query 10 Image
+<img width="767" alt="Screenshot 2024-03-27 at 1 31 14 PM" src="https://github.com/Rohank66/MIST4610-GP-1/assets/104539792/7415eab3-cf84-44b2-ab7a-d2d9f3d563b8">
 
 Query 10 allows managers to see which head coaches are being paid more than average. This could create an uneven distribution of wages for reasons unknown. This higher than average salary can be further investigated to determine if these coaches’ time and dedication to the club equates to their above average pay and whether or not to adjust accordingly.
 
