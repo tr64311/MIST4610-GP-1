@@ -6,11 +6,11 @@ Sp24_61608_Group 7
 ## Team Members:
 
 1. Rohan Kothari [@Rohank66](https://github.com/Rohank66/MIST4610-GP-1.git)
-2. Sedat Akgun 
+2. Sedat Akgun [@sedatakgun](https://github.com/sedatakgun/MIST4610-GP-1.git)
 3. Tharini R.K. 
 4. Ruhi Shirke
-5. Rachel Kim [@rachelkim816](https://github.com/rachelkim816/MIST-4610-group-project.git)
-6. Danielle LaDuca [@danijlad](insert website)
+5. Rachel Kim [@rachelkim816](https://github.com/rachelkim816/MIST4610-GP-1.git)
+6. Danielle LaDuca [@danijlad](https://github.com/danijlad/MIST4610-GP-1.git)
 
 ## Problem Description:
 
@@ -99,39 +99,40 @@ Query 4 could be used by management to recognize and reward players who are high
 
 Query 5 shows the players with the first name beginning with A-M represent half of our players (named practiceBlock1 in the procedure) who will engage in their first practice activity (ex. shooting) on grass and then switch with the remaining players (N-Z) who were working on the other practice activity (ex. dribbling) on turf. A manager would reference this query to see when the first half of players are scheduled to practice on grass. The club can schedule appropriate practice sessions on grass fields for half the players, and turf fields for half the players optimizing field usage.
 
-6. Query 6 lists the names of guests who have over 10 activity reservations and the activities that they have those reservations in.
+6. Query 6 provides detailed information about players with incomplete contract status and a loss history greater than 20.
 
 
 
-Query 6 allows the resort to determine what guests are contributing the most to each activity’s revenue. The resort may use this information to reward guests who spend the most on activities by offering special prizes and promotions, creating guest loyalty and creating an incentive to reserve even more.
+Query 6 shows the players who have not resigned their contracts and have lost more than 20 games are listed. The club may want to review these players, specifically their incomplete contracts. Since the performance for these players reflects a high loss rate, managers may consider offering further training, a renewed contract, or strategy sessions. 
 
-7. Query 7 lists the the amount of dining reservations per guest and the average amount of guests these reservations have.
+7. Query 7 lists the name, salary, job title, and zip code of game staff who reside in the same zip code as our facility, also known as our “local staff.”
 
 
 
 Query 7 allows the resort to see how many guests they should plan to seat, how the tables should be set up, and can lead to the resort figuring out how much revenue should be expected for the average visit.
 
-8. Query 8 lists the guestID, guest name, and the number of room reservations per guest.
+8. Query 8 returns details of equipment sets that were purchased in 2022 and 2023 in a descending order. The details include equipment set level, quantity, purchase date and set ID.
 
 
 
-Query 8 allows the resort to identify their frequent customers and how many times they have stayed. This could lead to a card system down the line. If a guest reaches 5 or 10 visits, there could be a platinum card which would gift the user reservation priority, food discounts, and other perks.
 
-9. Query 9 lists all the rooms along with their average room view rating if the rating is above a 4 star. Additionally, the query is sorted by the view rating and arranged in descending order.
+Query 8 is used when they wish to manage equipment history to make sure that the players have enough equipment that is up to date. This also allows the club to have access to view the equipment purchase history in relation to the equipment level, which can help them with future purchasing plans. Efficient equipment management ensures compliance with safety standards and regulatory requirements, mitigating risks of injury and liability for the club.
 
-
-
-Query 9 allows the employees and customers to see which rooms have an average view rating of 4 or more. Rooms with extravagant views are huge attractions to customers and can be a deciding factor when picking which room to stay in. This will help employees find which rooms have the best views fast and efficiently when asked.
-
-10. Query 10 lists the names and prices of all activities offered by the resort that have not yet been booked by any guests and that are less than or equal to $50. Additionally, the results of the query are ordered by price in ascending order.
+9. Query 9 lists out the matchScheduleIDs and the dates where there was not an opponent scheduled.
 
 
 
-Query 10 allows the employees and customers to see what activities have not been booked yet, and the prices for these activities. The price is sorted in ascending order to make it easier to find the most affordable activities which most people are looking for. Activities are a huge part of the resort experience and using this script will make it easy for employees to find which activities are available as well as the prices for these activities.
+Query 9 allows the club to know which of its past matches have been canceled due to there not being an opponent available to play against. By knowing the day, month, and year, that the majority of cancellations occur, due to opponent unavailability, the club can better schedule their team’s matches in the future. This will set more accurate expectations for the players, parents, and coaches when planning their personal schedules.
+
+10.Query 10 lists the first and last name of the head coaches whose salary is greater than the average head coach salary.
+
+
+
+Query 10 allows managers to see which head coaches are being paid more than average. This could create an uneven distribution of wages for reasons unknown. This higher than average salary can be further investigated to determine if these coaches’ time and dedication to the club equates to their above average pay and whether or not to adjust accordingly.
 
 ## Database information:
 
-Name of the database: 
+Name of the database: ns_Sp24_61608_Group7
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: 
 CALL TP_Q1();
